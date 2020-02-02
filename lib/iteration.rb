@@ -47,7 +47,7 @@ def total_even_pairs(src)
       total += src[array_index][0]
       total += src[array_index][1]
     end
-     array_index += 1
+    array_index += 1
   end
   total
 end
