@@ -9,7 +9,7 @@ def join_ingredients(src)
   array_index = 0
   while array_index < src.count do
     puts "I love #{src[array_index][0]} and #{src[array_index][1]} on my pizza"
-    array_index ++
+    array_index += 1
   end
   
 end
