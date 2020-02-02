@@ -42,7 +42,6 @@ def total_even_pairs(src)
   # this!
   total = 0
   array_index = 0
-  new_array = []
   if src[array_index][0] % 2 == 0 &&  src[array_index][1] % 2 == 0
     new_array.push(src[array_index])
     array_index += 1
