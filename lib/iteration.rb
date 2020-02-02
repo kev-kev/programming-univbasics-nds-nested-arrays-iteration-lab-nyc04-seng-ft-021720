@@ -24,7 +24,7 @@ def find_greater_pair(src)
   first_element = src[array_index][0]
   second_element = src[array_index][1]
   while array_index < src.count do
-    if first_element > select_second
+    if first_element > second_element
       new_array.push(first_element)
     else
       new_array.push(second_element)
