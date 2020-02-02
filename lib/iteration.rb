@@ -25,7 +25,7 @@ def find_greater_pair(src)
     if src[array_index][0] > src[array_index][1]
       new_array.push(src[array_index][0])
       else
-        new_array.push(second_element)
+        new_array.push(src[array_index][1])
     end
     array_index += 1
   end
