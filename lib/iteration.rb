@@ -12,7 +12,7 @@ def join_ingredients(src)
     new_array.push("I love #{src[array_index][0]} and #{src[array_index][1]} on my pizza")
     array_index += 1
   end
-  
+  new_array
 end
 
 def find_greater_pair(src)
