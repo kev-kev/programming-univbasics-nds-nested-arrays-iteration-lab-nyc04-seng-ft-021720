@@ -46,7 +46,7 @@ def total_even_pairs(src)
     new_array.push(src[array_index])
     array_index += 1
   end
-  
+  new_array
 end
 
 
